@@ -1,0 +1,51 @@
+body {
+	font-family: Georgia regular;
+}
+
+p,h1,h2,h3,h4,h5,h6 {margin:0px;
+padding:0px;
+}
+.logo{	
+  line-height: 2px;
+  padding: 19px 0px 23px 20px;
+}
+.logo h1{
+  font-size: 36px;
+  font-family: Georgia regular;
+  color: #7a888d;
+}
+.logo p {
+  font-size: 14px;
+  font-family: Georgia regular;
+  color: #303030;
+}
+.mynav {
+    margin: 33px 0 27px 0;
+}
+ul{
+   
+    background: #333333;
+    border-radius: 5px;
+}
+ul li a{
+    
+    font-family: "Georgia regular";
+    font-size: 13px;
+    padding:15px;
+    color: #ffffff;
+} 
+ul li a:hover{
+    color:#ff9900;
+}
+.subfooter, #footer {
+	background-color: #1c1c1c;
+}
+.footerPara {
+	color: #575757;
+	font-size: 13px;
+}
+#keep {
+	color: #3a3a3a;
+	font-size: 52px;
+	padding: 40px 69px 20px 20px;
+}
