@@ -23,7 +23,8 @@ p {
     margin-bottom: 40px;
 }
 .clear{
-    clear: both; /*everytime you do floats do clear*/
+    clear: both; 
+    /*floats do clear*/
 }
 
 .container{
@@ -167,7 +168,6 @@ p {
     display: none;
 }
 
-/*test area*/
 .containerx {
     display: inline-block;
     cursor: pointer;
@@ -196,12 +196,12 @@ p {
 .containerx, .bar1, .bar2, .bar3, .change{
     visibility:hidden;
 }
-/*test area ends here*/
 
-/*Selectors and styles affecting screens UP TO 979px (Desktop)*/ 
-@media (max-width: 1920px) {
-    #tester{
-        width: 1920px;
+
+/* (Desktop)*/ 
+@media (max-width: 1366px) {
+    #body{
+        width: 1366px;
     }
     
        
@@ -210,10 +210,10 @@ p {
 
 @media (max-width: 767px) {
     /* Selectors and styles affecting screens UP TO 767px (Tablet) */
-#tester{
+#body{
     width: 100%;
 }
-/*test area*/
+
 
 .containerx, .bar1, .bar2, .bar3, .change{
     visibility:visible;
@@ -221,7 +221,7 @@ p {
     margin-top: 2%;
 }
 
-/*test area*/
+
 #bottommenu{
     display: none;
 }    
@@ -234,10 +234,8 @@ p {
     text-decoration: none;
     font-size: 30px;
 }
-/*#mobile-menu{
-    background-color: rgba(255,0,0,0.1);
+   
     
-}*/
 #mobile-menu ul {
     float: right;
     text-align: center;
@@ -268,7 +266,7 @@ p {
 }
 
 @media (max-width: 480px) {
-#tester{
+#body{
     width: 100%;
 }
  

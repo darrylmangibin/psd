@@ -1,0 +1,189 @@
+body {
+	box-sizing: border-box;
+}
+
+/
+*body {
+	font-family: Georgia Regular;
+	
+	height: auto;
+}*/
+
+.carousel-inner {
+	height: 370px;
+	width: 100%
+}
+.carousel-inner img{
+	max-height: 370px;
+}
+.button {
+	border: 0px;
+}
+.featName img{
+	float: left;
+}
+.col-md-4 p{
+	font-size: 13px;
+	clear: both;
+}
+
+.featName {
+	margin-top: 40px;
+	margin-left: 20px;
+	border-bottom: 1px solid #cfcfcf;
+}
+.subfooter {
+	height: 264px;
+}
+.subfooter, #footer {
+	background-color: #1c1c1c;
+}
+.subMid {
+	margin-top: 28px;
+	color: #ffffff;
+}
+.subMid p{
+	line-height: 4px;
+
+}
+.subPara {
+	color: #6b6b6b;
+}
+.para {
+	margin-bottom: 20px;
+}
+.clear {
+	clear: both;
+}
+.table {
+	border-style: none;
+	margin-right: 35px;
+	margin-left: -35px;
+	margin-top: 38px;
+	border-top: none;
+}
+.btn{
+	background-color: #333333;
+	border-style: none;
+	width: 100px;
+	font-size: 14px; 
+}
+
+#logo h2{
+	font-size: 36px;
+	color: #7a888d;
+}
+#logo p{
+	font-size: 14px;
+}
+#logo {
+	line-height: 2px;
+	margin-top: 19px;
+	margin-left: 20px;
+}
+#menu {
+	font-size: 13px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 25px;
+}
+#menu ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color:#303030;
+	border-radius: 8px;
+}
+#menu li{
+	float: left;
+}
+#menu li a{
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 19px 15px 19px;
+}
+#featured {
+	margin-top: 22px;
+}
+#application {
+	margin-top: 40px;
+}
+#content {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 40px;
+}
+#contentText h5{
+	color: #9e9e9e;
+	font-size: 22px;
+}
+#store {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#rss {
+	margin-top: 35px;
+	margin-left: 20px;
+}
+#links {
+	margin-top: 30px;
+	margin-left: -70px;
+}
+#links h1{
+	font-size: 26px;
+	color: #ffffff;
+}
+#links p {
+	padding-top: 10px;
+	margin-left: -70px;
+	margin-bottom: -40px;
+}
+#staticEmail2 {
+	color: #ffffff;
+	font-size: 13px;
+	margin-left: -52px;
+	margin-right: 90px;
+}
+#inputPassword2 {
+	background-color: #333333;
+	border-style: none;
+	width: 241px;
+	font-size: 14px;
+	margin-left: -70px;
+
+}
+#footer {
+	font-size: 12px;
+	border-top: 1px solid #262626;
+	padding-left: 20px;
+}
+
+@media (max-width: 1366px) {
+    .container-fluid{
+        width: 100%;
+}
+}
+
+
+@media (max-width: 767px) {
+    /* Selectors and styles affecting screens UP TO 767px (Tablet) */
+.container-fluid{
+    width: 100%;
+}
+#links, .subMid, #staticEmail2 {
+	display:: none;
+}
+.col.md-4 {
+	width: 30%;
+}
+}
+
+
+@media (max-width: 480px) {
+.container-fluid{
+    width: 100%;
+}
+}
