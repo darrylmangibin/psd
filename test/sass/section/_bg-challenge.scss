@@ -1,0 +1,30 @@
+.bg-challenge {
+	height: 100vh;
+	display: table;
+
+
+	&__logo {
+		width: 60%;
+	}
+
+	&__left {
+		width: 50%;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+
+	&__right {
+		width: 50%;
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	&__content {
+		width: 65%;
+	}
+
+	&__heading p:not(:last-child) {
+		margin-bottom: 5rem;
+	}
+}

@@ -1,0 +1,40 @@
+.solution {
+	height: 100vh;
+	position: relative;
+	background-image: linear-gradient(to top, rgba(12, 54, 63, 0.1) 0%, rgba(12, 54, 63, 0.9) 0%, #0c363f 78%);
+	
+	width:100%;
+
+
+	&__box {
+		display: table;
+		color: #fff;
+		font-size: 1.6rem;
+		width: 75%;
+
+		& h1 {
+			display: table-caption;
+		}
+
+		&--left {
+			display: table-cell;
+			vertical-align: middle;
+			width: 50%;
+			padding: 2rem 5rem;
+
+			& > *:not(:last-child) {
+				padding-bottom: 3.5rem;
+			}
+		}
+
+		&--right {
+			display: table-cell;
+			vertical-align: middle;
+			width: 50%;
+			padding: 2rem 5rem;
+			& > *:not(:last-child) {
+				padding-bottom: 3.5rem;
+			}
+		}
+	}
+}

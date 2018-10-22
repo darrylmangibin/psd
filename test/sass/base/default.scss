@@ -1,0 +1,23 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: sans-serif;
+	
+
+}
+
+.bg-cover {
+	background-image: linear-gradient(to bottom, rgba(12, 54, 63, 0.1) 34%, rgba(12, 54, 63, 0.9) 67%,rgba(12, 54, 63, 1.9) 78%), url(../img/header-bg.png);
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+
+}

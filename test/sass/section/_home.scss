@@ -1,0 +1,59 @@
+.home {
+	height: 91vh;
+	
+
+
+	&__logo-box {
+		position: relative;
+		height: 100%;
+	}
+
+	&__logo {
+		position: absolute;
+	    top: 50%;
+	    left: 3%;
+	    transform: translateY(-50%);
+	    width: 50%;
+
+
+	    & img {
+	    	width:75%;
+	    }
+	}
+
+	&__play {
+		transition: all 1s;
+	}
+
+	&__play:hover {
+		transform: rotateZ(360deg) scale(.8);
+	}
+
+	&__video {
+		height: 100vh;
+		width: 100%;	
+		top: 0;
+		left: 0;
+		position: fixed;
+		background-color: rgba(0, 0, 0, 0.8);
+		transition: all 1s;
+		opacity: 0;
+		visibility: hidden;
+		transform: scale(0.1);
+
+		&:target {
+			opacity: 1 !important;
+			visibility: visible !important;
+			transform: scale(1)
+		}
+
+		&--primary {
+			background-color: #fff;
+			width: 75%;
+			border-radius: 5px;
+			overflow: hidden;
+
+		}
+	}
+
+}

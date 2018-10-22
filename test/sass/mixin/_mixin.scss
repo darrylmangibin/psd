@@ -1,0 +1,28 @@
+@mixin listStyle {
+	list-style: none;
+}
+
+@mixin v-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@mixin clearfix {
+	content:'';
+	clear: both;
+	display: table;
+}
+
+@mixin heading-primary {
+	color: #fff;
+	font-size: 5rem;
+	font-weight: 300;
+	line-height: 1.2;
+}
+
+@mixin content-text {
+	color: #fff;
+	font-size: 1.6rem;
+}
